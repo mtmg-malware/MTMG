@@ -16,6 +16,8 @@ This GitHub repository is currently dedicated to the Validation Phase, offering 
 
 ## Download
 For researchers who don't require the original malware and MTMG-malware samples, we've extracted features using the [LIEF](https://lief.quarkslab.com/) project (version 0.9.0). These features are consistent with the [Ember](https://github.com/elastic/ember) dataset (details). Every sample is represented as a 2381-feature vector. Access to these feature vectors and sample models is open to everyone. You can download the data from [Google Drive](). 
+- MTMG: Contains raw features for all samples
+- Models: Contains the Ember model, and we will provide an example of how to use the MTMG dataset to evaluate the robustness of the EMBER model
 
 **Caution**: Researchers who need the original malware and MTMG-modified samples should reach out to [Lichen Jia](lcjia457@gmail.com). When getting in touch, please include your Gmail address so we can provide access to the Google Drive folder containing the dataset. To prevent the potential misuse of these malware samples, it's imperative that before contacting us, you acknowledge and consent to the terms outlined below:
 
