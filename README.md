@@ -1,4 +1,4 @@
-# ERMDS Obfuscation Dataset
+# MTMG: A Framework for Generating Adversarial Examples Targeting Multiple Learning-based Malware Detection Systems
 ## Introduction
 Multi-Target Malware Generation (MTMG) is an attack framework designed to target multiple learning-based malware detection systems (LB-MDS) concurrently. Utilizing reinforcement learning, MTMG can orchestrate simultaneous attacks on multiple LB-MDS systems. The framework chooses an obfuscation technique and its relevant parameters from the action space, based on the observed state of the malware. This selection enables the creation of adversarial examples intended to deceive numerous LB-MDS. Comprehensive details are available in our research paper titled "MTMG: A Framework for Generating Adversarial Examples Targeting Multiple Learning-based Malware Detection Systems" (PDF format).
 
