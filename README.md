@@ -15,7 +15,7 @@ The reason we have not made MTMG open-source is due to potential misuse. Malware
 This GitHub repository is currently dedicated to the Validation Phase, offering both the original malware and versions modified by MTMG. In addition, we've provided their feature vectors to facilitate verification of MTMG's effectiveness and support subsequent research endeavors. We plan on continually updating this repository and will, in due time, roll out the binary release phase and the open-source phase.
 
 ## Download
-For researchers who don't require the original malware and MTMG-malware samples, we've extracted features using the [LIEF](https://lief.quarkslab.com/) project (version 0.9.0). These features are consistent with the [Ember](https://github.com/elastic/ember) dataset (details). Every sample is represented as a 2381-feature vector. Access to these feature vectors and sample models is open to everyone. You can download the data from [Google Drive](). 
+For researchers who don't require the original malware and MTMG-malware samples, we've extracted features using the [LIEF](https://lief.quarkslab.com/) project (version 0.9.0). These features are consistent with the [Ember](https://github.com/elastic/ember) dataset (details). Every sample is represented as a 2381-feature vector. Access to these feature vectors and sample models is open to everyone. You can download the data from [Google Drive](https://drive.google.com/drive/folders/16kBICos-wTojGr2MOk833mD8KJYDDisV?usp=drive_link). 
 - MTMG: Contains raw features for all samples
 - Models: Contains the Ember model, and we will provide an example of how to use the MTMG dataset to evaluate the robustness of the EMBER model
 
