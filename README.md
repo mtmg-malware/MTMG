@@ -72,7 +72,7 @@ python evaluation.py Virus
 ```
 
 ## How to Expand the the Dataset:
-To facilitate future researchers in defining their own datasets or expanding the ERMDS dataset, we provide a feature extraction script called feature.py. Modify the paths in this file and run the script to obtain sample features in JSON format.
+To facilitate future researchers in defining their own datasets or expanding the MTMG dataset, we provide a feature extraction script called feature.py. Modify the paths in this file and run the script to obtain sample features in JSON format.
 
 ```bash
 python feature.py
