@@ -47,10 +47,28 @@ pip install -r requirements.txt
 ```
 
 ## Evaluating LB-MDS Robustness with MTMG-Malware:
-1. Evaluate the robustness of LB-MDS using MTMG-Malware
+1. Evaluate the robustness of LB-MDS using all dataset
 
 ```bash
-python evaluation.py
+python evaluation.py ALL
+```
+
+2. Evaluate the robustness of LB-MDS using AVs dataset
+
+```bash
+python evaluation.py AVs
+```
+
+3. Evaluate the robustness of LB-MDS using LB-MDS dataset
+
+```bash
+python evaluation.py LB-MDS
+```
+
+4. Evaluate the robustness of LB-MDS using Virus dataset
+
+```bash
+python evaluation.py Virus
 ```
 
 ## How to Expand the the Dataset:
